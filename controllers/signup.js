@@ -69,7 +69,7 @@ exports.login=async(req,res)=>{
             success:true,
             user,
             token,
-            message:"user logged in successfully"
+            message:"user logged in  successfully"
         })
     }else{
         // pass does not match
